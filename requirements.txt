@@ -2,7 +2,9 @@ fastapi
 uvicorn[standard]
 python-multipart
 captcha-recognizer
-opencv-python-headless==4.8.0.74
-numpy==1.23.0
+opencv-python-headless>=4.10.0
+numpy>=1.24.0
 shapely
 onnxruntime
+setuptools
+wheel
